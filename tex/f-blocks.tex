@@ -1,0 +1,20 @@
+% Definice vlastních bloků pro lepší strukturu
+\newenvironment{rookie}[1]{%
+	\setbeamercolor{block title}{bg=green!20!white,fg=black}
+	\begin{block}{#1}}{\end{block}}
+
+\newenvironment{veteran}[1]{%
+	\setbeamercolor{block title}{bg=yellow!20!white,fg=black}
+	\begin{block}{#1}}{\end{block}}	
+
+\newenvironment{commander}[1]{%
+	\setbeamercolor{block title}{bg=red!20!white,fg=black}
+	\begin{block}{#1}}{\end{block}}	
+
+\newenvironment{basicblock}[1]{%
+	\setbeamercolor{block title}{bg=blue!20!white,fg=black}
+	\begin{block}{#1}}{\end{block}}
+
+\newenvironment{practiceblock}[1]{%
+	\setbeamercolor{block title}{bg=green!20!white,fg=black}
+	\begin{block}{#1}}{\end{block}}

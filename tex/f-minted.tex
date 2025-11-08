@@ -1,0 +1,146 @@
+\usepackage{minted2}
+\usepackage{minted}
+
+\definecolor{mintedbackground}{rgb}{0.95,0.95,0.95}
+
+\setminted[c]{
+	bgcolor=mintedbackground,	
+	fontfamily=tt,
+	linenos=true,	
+	numberblanklines=true,
+	%numbersep=12pt,
+	numbersep=5pt,
+	%gobble=2,
+	autogobble,
+	%frame=lines, 
+	frame=leftline,
+	framerule=0.4pt,
+	framesep=2mm,
+	funcnamehighlighting=true,
+	tabsize=4,
+	obeytabs=false,
+	mathescape=false,
+	samepage=false,
+	showspaces=false,
+	showtabs=false,
+	texcl=false,
+	breaklines=true,
+	%fontsize=\footnotesize,
+	fontsize=\scriptsize,
+}
+
+\setminted[output]{
+	%	bgcolor=mintedbackground,	
+	% bgcolor=white,
+	fontfamily=tt,
+	linenos=false,
+	numberblanklines=true,
+	numbersep=5pt,
+	%	gobble=0,
+	autogobble,
+	frame=single, %leftline
+	% framerule=0.4pt,
+	% framesep=2mm,
+	funcnamehighlighting=true,
+	tabsize=4,
+	obeytabs=false,
+	mathescape=false,
+	samepage=false,
+	showspaces=false,
+	showtabs =false,
+	texcl=false,
+	breaklines=true,
+	fontsize=\scriptsize,	
+}
+
+\setminted[python]{
+	bgcolor=mintedbackground,	
+	fontfamily=tt,
+	linenos=true,	
+	numberblanklines=true,
+	%numbersep=12pt,
+	numbersep=5pt,
+	%gobble=2,
+	autogobble,
+	%frame=lines, 
+	frame=leftline,
+	framerule=0.4pt,
+	framesep=2mm,
+	funcnamehighlighting=true,
+	tabsize=4,
+	obeytabs=false,
+	mathescape=false,
+	samepage=false,
+	showspaces=false,
+	showtabs=false,
+	texcl=false,
+	breaklines=true,
+	%fontsize=\footnotesize,
+	fontsize=\scriptsize,
+	%fontsize=\tiny,
+}
+
+\setminted[html]{
+	bgcolor=mintedbackground,	
+	fontfamily=tt,
+	linenos=true,	
+	numberblanklines=true,
+	%numbersep=12pt,
+	numbersep=5pt,
+	%gobble=2,
+	autogobble,
+	%frame=lines, 
+	frame=leftline,
+	framerule=0.4pt,
+	framesep=2mm,
+	funcnamehighlighting=true,
+	tabsize=4,
+	obeytabs=false,
+	mathescape=false,
+	samepage=false,
+	showspaces=false,
+	showtabs=false,
+	texcl=false,
+	breaklines=true,
+	fontsize=\scriptsize,
+}
+
+\setminted[json]{
+	bgcolor=mintedbackground,	
+	fontfamily=tt,
+	linenos=true,	
+	numberblanklines=true,
+	%numbersep=12pt,
+	numbersep=5pt,
+	%gobble=2,
+	autogobble,
+	%frame=lines, 
+	frame=leftline,
+	framerule=0.4pt,
+	framesep=2mm,
+	funcnamehighlighting=true,
+	tabsize=4,
+	obeytabs=false,
+	mathescape=false,
+	samepage=false,
+	showspaces=false,
+	showtabs=false,
+	texcl=false,
+	breaklines=true,
+	fontsize=\scriptsize,
+}
+
+\newcommand{\betweenminted}[1]{%
+	\par\vspace{-\medskipamount}\vspace{-2\baselineskip}%
+	\vspace{#1}%
+}
+
+\newcommand{\beforeminted}[1]{%
+	\par\vspace{-2\medskipamount}\vspace{-\baselineskip}%
+	\vspace{#1}%
+}
+
+\newcommand{\afterminted}[1]{%
+	\par\vspace{-2\medskipamount}\vspace{-\baselineskip}%
+	\vspace{#1}%
+}
